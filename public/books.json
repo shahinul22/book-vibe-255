@@ -1,161 +1,194 @@
-{
-    "books": [
-      {
-        "bookId": 1,
-        "bookName": "The Silent Patient",
-        "author": "Alex Michaelides",
-        "image": "https://example.com/images/silent_patient.jpg",
-        "review": "A thrilling psychological story with an unexpected twist. The narrative grips you from the first page and keeps you guessing until the very end. The exploration of trauma and silence is deeply moving. The characters are well-developed, and the plot is masterfully constructed. A must-read for fans of suspense and psychological drama.",
-        "totalPages": 336,
-        "rating": 4.6,
-        "category": "Fiction",
-        "tags": ["Suspense", "Psychological"],
-        "publisher": "Celadon Books",
-        "yearOfPublishing": 2019
-      },
-      {
-        "bookId": 2,
-        "bookName": "Atomic Habits",
-        "author": "James Clear",
-        "image": "https://example.com/images/atomic_habits.jpg",
-        "review": "A practical guide to transforming your habits with small, actionable steps. The book is packed with real-life examples and research-backed strategies. It simplifies the science of behavior change into an easy-to-follow framework. Whether you want to build better habits or break bad ones, this book provides invaluable insights. A transformative read for personal growth.",
-        "totalPages": 320,
-        "rating": 4.8,
-        "category": "Self-Help",
-        "tags": ["Productivity", "Personal Growth"],
-        "publisher": "Avery",
-        "yearOfPublishing": 2018
-      },
-      {
-        "bookId": 3,
-        "bookName": "Becoming",
-        "author": "Michelle Obama",
-        "image": "https://example.com/images/becoming.jpg",
-        "review": "An inspiring memoir of resilience, growth, and self-discovery. Michelle Obama shares her life journey with authenticity and grace. From her childhood to her role as First Lady, every chapter reveals valuable life lessons. The narrative is warm and deeply personal, making it easy to connect with her story. A powerful and uplifting book that stays with you.",
-        "totalPages": 448,
-        "rating": 4.9,
-        "category": "Biography",
-        "tags": ["Inspiring", "Memoir"],
-        "publisher": "Crown Publishing Group",
-        "yearOfPublishing": 2018
-      },
-      {
-        "bookId": 4,
-        "bookName": "1984",
-        "author": "George Orwell",
-        "image": "https://example.com/images/1984.jpg",
-        "review": "A chilling dystopian novel that delves into the dangers of totalitarianism. Orwell's world-building is hauntingly realistic, and his warnings about surveillance and propaganda remain relevant today. The protagonist's struggle for freedom is deeply compelling. The book challenges you to think critically about power and control. A timeless masterpiece that everyone should read.",
-        "totalPages": 328,
-        "rating": 4.7,
-        "category": "Fiction",
-        "tags": ["Dystopian", "Classic"],
-        "publisher": "Secker & Warburg",
-        "yearOfPublishing": 1949
-      },
-      {
-        "bookId": 5,
-        "bookName": "Educated",
-        "author": "Tara Westover",
-        "image": "https://example.com/images/educated.jpg",
-        "review": "A powerful memoir about growing up in isolation and seeking education. Tara's journey from a survivalist family to earning a PhD is remarkable. Her writing is raw and honest, bringing her struggles and triumphs to life. The book is a testament to the transformative power of knowledge. A deeply moving story that inspires and challenges your perspective.",
-        "totalPages": 352,
-        "rating": 4.7,
-        "category": "Memoir",
-        "tags": ["Inspiring", "True Story"],
-        "publisher": "Random House",
-        "yearOfPublishing": 2018
-      },
-      {
-        "bookId": 6,
-        "bookName": "The Alchemist",
-        "author": "Paulo Coelho",
-        "image": "https://example.com/images/alchemist.jpg",
-        "review": "A magical story about pursuing your dreams and discovering your purpose. The narrative is simple yet profound, filled with wisdom and universal truths. Santiago's journey to find his 'Personal Legend' is deeply inspiring. The book encourages readers to follow their hearts and embrace life's uncertainties. A timeless tale that resonates with all ages.",
-        "totalPages": 208,
-        "rating": 4.5,
-        "category": "Fiction",
-        "tags": ["Philosophical", "Adventure"],
-        "publisher": "HarperOne",
-        "yearOfPublishing": 1988
-      },
-      {
-        "bookId": 7,
-        "bookName": "Sapiens: A Brief History of Humankind",
-        "author": "Yuval Noah Harari",
-        "image": "https://example.com/images/sapiens.jpg",
-        "review": "An engaging exploration of human history, from the Stone Age to the present. Harari's insights into human behavior and societal evolution are thought-provoking. The book challenges conventional narratives and offers fresh perspectives. It blends history, anthropology, and philosophy seamlessly. A fascinating read that broadens your understanding of humanity.",
-        "totalPages": 464,
-        "rating": 4.7,
-        "category": "History",
-        "tags": ["Anthropology", "World History"],
-        "publisher": "Harper",
-        "yearOfPublishing": 2011
-      },
-      {
-        "bookId": 8,
-        "bookName": "The Catcher in the Rye",
-        "author": "J.D. Salinger",
-        "image": "https://example.com/images/catcher_rye.jpg",
-        "review": "A classic tale of teenage rebellion and self-discovery. The protagonist, Holden Caulfield, is both relatable and polarizing. Salinger's writing captures the essence of youth and the struggle to find meaning. The story resonates with readers across generations. A timeless work that remains relevant to this day.",
-        "totalPages": 214,
-        "rating": 4.3,
-        "category": "Fiction",
-        "tags": ["Classic", "Coming of Age"],
-        "publisher": "Little, Brown and Company",
-        "yearOfPublishing": 1951
-      },
-      {
-        "bookId": 9,
-        "bookName": "The Subtle Art of Not Giving a F*ck",
-        "author": "Mark Manson",
-        "image": "https://example.com/images/subtle_art.jpg",
-        "review": "A refreshingly honest book about accepting life's limitations. Mark Manson's humor and blunt advice challenge toxic positivity. The focus on embracing struggles and prioritizing what truly matters is empowering. The concepts are relatable and actionable. A must-read for anyone seeking a realistic approach to personal growth.",
-        "totalPages": 224,
-        "rating": 4.4,
-        "category": "Self-Help",
-        "tags": ["Motivational", "Personal Growth"],
-        "publisher": "HarperOne",
-        "yearOfPublishing": 2016
-      },
-      {
-        "bookId": 10,
-        "bookName": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "image": "https://example.com/images/great_gatsby.jpg",
-        "review": "A poignant story of love, ambition, and the American Dream. Fitzgerald's prose is lyrical and evocative, capturing the spirit of the Jazz Age. The characters are flawed yet fascinating, adding depth to the narrative. The themes of wealth and societal expectations are timeless. A literary masterpiece that leaves a lasting impression.",
-        "totalPages": 180,
-        "rating": 4.2,
-        "category": "Fiction",
-        "tags": ["Classic", "Romance"],
-        "publisher": "Charles Scribner's Sons",
-        "yearOfPublishing": 1925
-      },
-      {
-        "bookId": 11,
-        "bookName": "Dune",
-        "author": "Frank Herbert",
-        "image": "https://example.com/images/dune.jpg",
-        "review": "An epic science fiction saga that explores politics, religion, and power. Herbert's world-building is unparalleled, creating a rich and immersive experience. The story of Paul Atreides is both thrilling and thought-provoking. Themes of survival and ecological balance are woven seamlessly. A cornerstone of science fiction that continues to inspire.",
-        "totalPages": 412,
-        "rating": 4.6,
-        "category": "Science Fiction",
-        "tags": ["Epic", "Adventure"],
-        "publisher": "Chilton Books",
-        "yearOfPublishing": 1965
-      },
-      {
-        "bookId": 12,
-        "bookName": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "image": "https://example.com/images/to_kill_mockingbird.jpg",
-        "review": "A moving story about racial injustice and moral growth. Harper Lee's writing captures the innocence and complexity of childhood. The characters are vivid and unforgettable, particularly Atticus Finch. The book's themes of empathy and justice are timeless. A profound and heartwarming novel that remains a cornerstone of literature.",
-        "totalPages": 281,
-        "rating": 4.8,
-        "category": "Fiction",
-        "tags": ["Classic", "Social Justice"],
-        "publisher": "J.B. Lippincott & Co.",
-        "yearOfPublishing": 1960
-      }
-    ]
+[
+  {
+    "bookId": 1,
+    "bookName": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "image": "https://example.com/images/silent_patient.jpg",
+    "review": "A thrilling psychological story with an unexpected twist. The narrative grips you from the first page and keeps you guessing until the very end. The exploration of trauma and silence is deeply moving. The characters are well-developed, and the plot is masterfully constructed. A must-read for fans of suspense and psychological drama.",
+    "totalPages": 336,
+    "rating": 4.6,
+    "category": "Fiction",
+    "tags": [
+      "Suspense",
+      "Psychological"
+    ],
+    "publisher": "Celadon Books",
+    "yearOfPublishing": 2019
+  },
+  {
+    "bookId": 2,
+    "bookName": "Atomic Habits",
+    "author": "James Clear",
+    "image": "https://example.com/images/atomic_habits.jpg",
+    "review": "A practical guide to transforming your habits with small, actionable steps. The book is packed with real-life examples and research-backed strategies. It simplifies the science of behavior change into an easy-to-follow framework. Whether you want to build better habits or break bad ones, this book provides invaluable insights. A transformative read for personal growth.",
+    "totalPages": 320,
+    "rating": 4.8,
+    "category": "Self-Help",
+    "tags": [
+      "Productivity",
+      "Personal Growth"
+    ],
+    "publisher": "Avery",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 3,
+    "bookName": "Becoming",
+    "author": "Michelle Obama",
+    "image": "https://example.com/images/becoming.jpg",
+    "review": "An inspiring memoir of resilience, growth, and self-discovery. Michelle Obama shares her life journey with authenticity and grace. From her childhood to her role as First Lady, every chapter reveals valuable life lessons. The narrative is warm and deeply personal, making it easy to connect with her story. A powerful and uplifting book that stays with you.",
+    "totalPages": 448,
+    "rating": 4.9,
+    "category": "Biography",
+    "tags": [
+      "Inspiring",
+      "Memoir"
+    ],
+    "publisher": "Crown Publishing Group",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 4,
+    "bookName": "1984",
+    "author": "George Orwell",
+    "image": "https://example.com/images/1984.jpg",
+    "review": "A chilling dystopian novel that delves into the dangers of totalitarianism. Orwell's world-building is hauntingly realistic, and his warnings about surveillance and propaganda remain relevant today. The protagonist's struggle for freedom is deeply compelling. The book challenges you to think critically about power and control. A timeless masterpiece that everyone should read.",
+    "totalPages": 328,
+    "rating": 4.7,
+    "category": "Fiction",
+    "tags": [
+      "Dystopian",
+      "Classic"
+    ],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "bookId": 5,
+    "bookName": "Educated",
+    "author": "Tara Westover",
+    "image": "https://example.com/images/educated.jpg",
+    "review": "A powerful memoir about growing up in isolation and seeking education. Tara's journey from a survivalist family to earning a PhD is remarkable. Her writing is raw and honest, bringing her struggles and triumphs to life. The book is a testament to the transformative power of knowledge. A deeply moving story that inspires and challenges your perspective.",
+    "totalPages": 352,
+    "rating": 4.7,
+    "category": "Memoir",
+    "tags": [
+      "Inspiring",
+      "True Story"
+    ],
+    "publisher": "Random House",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 6,
+    "bookName": "The Alchemist",
+    "author": "Paulo Coelho",
+    "image": "https://example.com/images/alchemist.jpg",
+    "review": "A magical story about pursuing your dreams and discovering your purpose. The narrative is simple yet profound, filled with wisdom and universal truths. Santiago's journey to find his 'Personal Legend' is deeply inspiring. The book encourages readers to follow their hearts and embrace life's uncertainties. A timeless tale that resonates with all ages.",
+    "totalPages": 208,
+    "rating": 4.5,
+    "category": "Fiction",
+    "tags": [
+      "Philosophical",
+      "Adventure"
+    ],
+    "publisher": "HarperOne",
+    "yearOfPublishing": 1988
+  },
+  {
+    "bookId": 7,
+    "bookName": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "image": "https://example.com/images/sapiens.jpg",
+    "review": "An engaging exploration of human history, from the Stone Age to the present. Harari's insights into human behavior and societal evolution are thought-provoking. The book challenges conventional narratives and offers fresh perspectives. It blends history, anthropology, and philosophy seamlessly. A fascinating read that broadens your understanding of humanity.",
+    "totalPages": 464,
+    "rating": 4.7,
+    "category": "History",
+    "tags": [
+      "Anthropology",
+      "World History"
+    ],
+    "publisher": "Harper",
+    "yearOfPublishing": 2011
+  },
+  {
+    "bookId": 8,
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "https://example.com/images/catcher_rye.jpg",
+    "review": "A classic tale of teenage rebellion and self-discovery. The protagonist, Holden Caulfield, is both relatable and polarizing. Salinger's writing captures the essence of youth and the struggle to find meaning. The story resonates with readers across generations. A timeless work that remains relevant to this day.",
+    "totalPages": 214,
+    "rating": 4.3,
+    "category": "Fiction",
+    "tags": [
+      "Classic",
+      "Coming of Age"
+    ],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "bookId": 9,
+    "bookName": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "image": "https://example.com/images/subtle_art.jpg",
+    "review": "A refreshingly honest book about accepting life's limitations. Mark Manson's humor and blunt advice challenge toxic positivity. The focus on embracing struggles and prioritizing what truly matters is empowering. The concepts are relatable and actionable. A must-read for anyone seeking a realistic approach to personal growth.",
+    "totalPages": 224,
+    "rating": 4.4,
+    "category": "Self-Help",
+    "tags": [
+      "Motivational",
+      "Personal Growth"
+    ],
+    "publisher": "HarperOne",
+    "yearOfPublishing": 2016
+  },
+  {
+    "bookId": 10,
+    "bookName": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://example.com/images/great_gatsby.jpg",
+    "review": "A poignant story of love, ambition, and the American Dream. Fitzgerald's prose is lyrical and evocative, capturing the spirit of the Jazz Age. The characters are flawed yet fascinating, adding depth to the narrative. The themes of wealth and societal expectations are timeless. A literary masterpiece that leaves a lasting impression.",
+    "totalPages": 180,
+    "rating": 4.2,
+    "category": "Fiction",
+    "tags": [
+      "Classic",
+      "Romance"
+    ],
+    "publisher": "Charles Scribner's Sons",
+    "yearOfPublishing": 1925
+  },
+  {
+    "bookId": 11,
+    "bookName": "Dune",
+    "author": "Frank Herbert",
+    "image": "https://example.com/images/dune.jpg",
+    "review": "An epic science fiction saga that explores politics, religion, and power. Herbert's world-building is unparalleled, creating a rich and immersive experience. The story of Paul Atreides is both thrilling and thought-provoking. Themes of survival and ecological balance are woven seamlessly. A cornerstone of science fiction that continues to inspire.",
+    "totalPages": 412,
+    "rating": 4.6,
+    "category": "Science Fiction",
+    "tags": [
+      "Epic",
+      "Adventure"
+    ],
+    "publisher": "Chilton Books",
+    "yearOfPublishing": 1965
+  },
+  {
+    "bookId": 12,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://example.com/images/to_kill_mockingbird.jpg",
+    "review": "A moving story about racial injustice and moral growth. Harper Lee's writing captures the innocence and complexity of childhood. The characters are vivid and unforgettable, particularly Atticus Finch. The book's themes of empathy and justice are timeless. A profound and heartwarming novel that remains a cornerstone of literature.",
+    "totalPages": 281,
+    "rating": 4.8,
+    "category": "Fiction",
+    "tags": [
+      "Classic",
+      "Social Justice"
+    ],
+    "publisher": "J.B. Lippincott & Co.",
+    "yearOfPublishing": 1960
   }
-  
+]

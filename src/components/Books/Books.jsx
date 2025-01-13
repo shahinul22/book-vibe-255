@@ -14,7 +14,8 @@ const Books = () => {
                     throw new Error(`HTTP error! Status: ${res.status}`);
                 }
                 const data = await res.json();
-                setBooks(data.books); // Access the 'books' array from the JSON
+                setBooks(data); // Access the 'books' array from the JSON
+                // console.log(data);
             } catch (err) {
                 setError(err.message);
             }
@@ -37,7 +38,7 @@ const Books = () => {
             )}
             <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 {
-                    books.slice(0, displayBooks).map((book) => <Book key={book.id} book={book}></Book>)
+                    books.slice(0, displayBooks).map((book,index) => <Book key={index} book={book}></Book>)
                 }
             </div>
             {/* See All Button */}

@@ -7,8 +7,8 @@ const Book = ({ book }) => {
     const { bookId, bookName, author, tags, category, rating, image } = book;
     const [tag1, tag2] = tags;
     return (
-        <div className="card bg-base-100  shadow-xl">
-            <Link to={`/book/:${bookId}`}> 
+        <div className="card bg-base-100  mx-3 shadow-gray-500 shadow-xl">
+            <Link to={`/book/${bookId}`}> 
                 <figure className="px-10 pt-10">
                     <img
                         src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
