@@ -3,6 +3,7 @@ import { getStoredBooks, saveBook } from '../../Utility/localStorage';
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
+
 const BookDetails = () => {
     const books = useLoaderData();
     const { id } = useParams();
@@ -15,11 +16,21 @@ const BookDetails = () => {
 
     const handleReadBooks = (title) => {
         const storedBooks = getStoredBooks(title);
+        let storedReadBooks = [];
+
+        if (title === "wish-Book-list") {
+            storedReadBooks = getStoredBooks("read-Book-List");
+            if (storedReadBooks.includes(idInt)) {
+                toast.info("This book is already read!");
+                return; // Exit if the book is in the Read list
+            }
+        }
+
         if (!storedBooks.includes(idInt)) {
             saveBook(idInt, title);
             toast.success("Book added successfully!");
         } else {
-            toast.warn("This book is already in your list!");
+            toast.warn("This book is already added!");
         }
     };
 
