@@ -1,18 +1,31 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import { getStoredBooks, saveBook } from '../../Utility/localStorage';
+import { getStoredBooks, saveBook, saveBookToStorage } from '../../Utility/localStorage';
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import { useEffect, useState } from "react";
 
 
 const BookDetails = () => {
     const books = useLoaderData();
     const { id } = useParams();
 
+    const [wishListBooks, setWishListBooks] = useState([]);
+
     const idInt = parseInt(id, 10);
     const book = Array.isArray(books) ? books.find((book) => book.bookId === idInt) : null;
 
     const { bookName, author, yearOfPublishing, publisher, tags, category, rating, totalPages, review, image } = book || {};
     const [tag1, tag2] = tags || [];
+
+    useEffect(() => {
+        const savedReadBookIds = getStoredBooks("read-Book-List");
+        const savedWishBookIds = getStoredBooks("wish-Book-list");
+        if (savedWishBookIds.length > 0) {
+            const list = books.filter((book) => savedWishBookIds.includes(book.bookId));
+            setWishListBooks(list);
+        }
+
+    }, [books])
 
     const handleReadBooks = (title) => {
         const storedBooks = getStoredBooks(title);
@@ -27,6 +40,13 @@ const BookDetails = () => {
         }
 
         if (!storedBooks.includes(idInt)) {
+            const isInWishList = wishListBooks.some((wishBook) => wishBook.bookId === idInt);
+            if (isInWishList) {
+                const updatedWishList = wishListBooks.filter((wishBook) => wishBook.bookId !== idInt);
+                setWishListBooks(updatedWishList);
+                saveBookToStorage("wish-Book-list", updatedWishList.map((b) => b.bookId));
+            }
+
             saveBook(idInt, title);
             toast.success("Book added successfully!");
         } else {

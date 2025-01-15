@@ -23,7 +23,11 @@ const saveJobApplication = (id) => {
         localStorage.setItem('job-application', JSON.stringify(storedJobApplications));
     }
 };
+ const saveBookToStorage = (key, books) => {
+    localStorage.setItem(key, JSON.stringify(books));
+};
 
 
 
-export { getStoredBooks, saveBook, getStoredJobApplication, saveJobApplication };
+
+export { getStoredBooks, saveBook, getStoredJobApplication, saveJobApplication, saveBookToStorage };
