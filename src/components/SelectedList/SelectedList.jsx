@@ -5,7 +5,7 @@ import { PiNotepadDuotone } from "react-icons/pi";
 import { Link } from 'react-router-dom';
 
 const SelectedList = ({ book }) => {
-    const { bookId, bookName, author, yearOfPublishing, publisher, tags, category, rating, totalPages } = book || {};
+    const { bookId, bookName, author, image, yearOfPublishing, publisher, tags, category, rating, totalPages } = book || {};
     const [tag1, tag2] = tags || [];
 
     return (
@@ -14,7 +14,7 @@ const SelectedList = ({ book }) => {
             <figure className="w-full h-auto p-3 sm:w-1/3 sm:h-auto lg:w-[250px] lg:h-[250px] flex-shrink-0">
                 <img
                     className="w-full h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-tr-none"
-                    src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+                    src={image}
                     alt="Book"
                 />
             </figure>

@@ -7,8 +7,9 @@ const Header = () => {
             <li ><NavLink to='/'>Home</NavLink></li>
             <li ><NavLink to='/listedBooks'>Listed Books</NavLink></li>
             <li ><NavLink to='/pageToRead'>Pages to Read</NavLink></li>
-            <li ><NavLink to='/appliedJobs'>Applied Jobs</NavLink></li>
-            <li ><NavLink to='/blogs'>Blogs</NavLink></li>
+            <li ><NavLink to='/about'>About</NavLink></li>
+            <li ><NavLink to='/contact'>Contact</NavLink></li>
+
         </>
     );
 
@@ -51,18 +52,24 @@ const Header = () => {
             {/* Navbar End */}
             <div className="navbar-end flex items-center gap-2">
                 <div>
-                    <a href="">
-                        <button className="btn btn-primary  text-white bg-gradient-to-r from-[#59C6D2] to-[#0ED5EA] hover:from-[#38B2AC] hover:to-[#319795] hover:text-gray-700">
-                            Sign In
-                        </button>
-                    </a>
+                    <NavLink to='/logIn'>
+                        <a href="">
+                            <button className="btn btn-primary  text-white bg-gradient-to-r from-[#59C6D2] to-[#0ED5EA] hover:from-[#38B2AC] hover:to-[#319795] hover:text-gray-700">
+                                Sign In
+                            </button>
+                        </a>
+                    </NavLink>
+
                 </div>
                 <div>
-                    <a href="">
-                        <button className="btn btn-primary text-white bg-gradient-to-r from-[#82C277] to-[#23BE0A] hover:from-[#5A9A5A] hover:to-[#1D7508] hover:text-gray-700">
-                            Sign Up
-                        </button>
-                    </a>
+                    <NavLink to='/signUp'>
+                        <a href="">
+                            <button className="btn btn-primary text-white bg-gradient-to-r from-[#82C277] to-[#23BE0A] hover:from-[#5A9A5A] hover:to-[#1D7508] hover:text-gray-700">
+                                Sign Up
+                            </button>
+                        </a>
+                    </NavLink>
+
                 </div>
             </div>
         </div>

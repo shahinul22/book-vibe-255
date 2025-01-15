@@ -11,7 +11,7 @@ const BookDetails = () => {
     const idInt = parseInt(id, 10);
     const book = Array.isArray(books) ? books.find((book) => book.bookId === idInt) : null;
 
-    const { bookName, author, yearOfPublishing, publisher, tags, category, rating, totalPages, review } = book || {};
+    const { bookName, author, yearOfPublishing, publisher, tags, category, rating, totalPages, review, image } = book || {};
     const [tag1, tag2] = tags || [];
 
     const handleReadBooks = (title) => {
@@ -40,7 +40,7 @@ const BookDetails = () => {
                 <figure className="w-full lg:w-1/3">
                     <img
                         className="w-full h-auto object-cover p-3 rounded-2xl"
-                        src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+                        src={image}
                         alt="Book"
                     />
                 </figure>
